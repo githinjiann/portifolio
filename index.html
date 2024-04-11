@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/49020eeca1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portifolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="header" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="header-text text-md-left">
+             
+              <h1>Hi there, I'm Ann Githinji</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="image/back.jpg" class="img-fluid" alt="About Image" />
+          </div>
+          <div class="col-md-6">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I recently completed my fourth-year ICT degree, equipping me with
+              comprehensive knowledge in information and communication
+              technology. With a strong foundation in ICT, I'm ready to tackle
+              diverse challenges and contribute effectively to the tech
+              industry.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI</span><br />Designing Web/App Interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Designing Web Development
+                </li>
+                <li><span>App Development</span><br />Building Android App</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2008-2015</span><br />Kianjogu Primary School</li>
+                <li><span>2016-2019</span><br />Kiambogo Secondary School</li>
+                <li><span>2020-2024</span><br />University of Embu</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+            Designing and building websites that look great and work well
+            for users.
+          </p>
+         
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+          <h2>Web Development</h2>
+          <p>
+            Creating functional  websites for optimal user
+            experience.
+          </p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-list">
+         <div>
+           <i class="fa-brands fa-app-store"></i>
+          <h2>App Development</h2>
+          <p>
+            Developing mobile applications that meet user needs and
+            expectations.
+          </p>
+          
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------------------Portifolio--------------------->
+<div id="portifolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="image/work-1.png">
+        <div class="layer">
+          <h3>school management web application</h3>
+          <p>This is a simple school management system that enhances communication between the students and the administrator</p>
+           <a href="https://github.com/githinjiann/student.git">GitHub Repository</a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/work-2.png">
+        <div class="layer">
+          <h3>Hypertension application</h3>
+          <p>This is chatbot application for the hypertension patients</p>
+           <a href="https://github.com/githinjiann/bot.git">GitHub Repository</a>
+        </div>
+      </div>
+      <div class="work">
+    <img src="image/work-3.png">
+    <div class="layer">
+        <h3>Home page</h3>
+        <p>The University of Embu home page</p>
+        <a href="https://github.com/githinjiann/student.git">GitHub Repository</a>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<!-------------------------Contact--------------->
+<div class="contact"> 
+  <div class="container">
+    <div class="raw">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>annndutaw2020@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>0759151030</p>
+        <a href="image/My CV.pdf" download class="btn btn2">Dowmload CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <Textarea name="Message" rows="6" placeholder="Your Message"></Textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+<div class="copyright">
+  <p><i class="fa-solid fa-heart"></i>copyright@Annie.all Rights Reserved</p>
+</div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+      }
+    </script>
+   <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgyBjZHspW1l7KkIL6h9y4ulIjrNtGRNH7r3EaW1lYur831SeqP7Ygb6c1-WLwb46I/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },2000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
